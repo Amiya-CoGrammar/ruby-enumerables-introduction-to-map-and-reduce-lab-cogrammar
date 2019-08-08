@@ -52,7 +52,7 @@ end
 reduce_to_all_true([1,2,3])
 
 def reduce_to_all_true(x)
-  if x = flase
+  if x = false
     return x
   end
 
