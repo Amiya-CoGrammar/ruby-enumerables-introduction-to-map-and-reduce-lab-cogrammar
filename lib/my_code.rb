@@ -29,4 +29,4 @@ def map_to_square(s)
   new_array = s.map { |n| n * e}
   return new_array
 end
-map_to_square(1,2,3)
+map_to_square([1,2,3])
