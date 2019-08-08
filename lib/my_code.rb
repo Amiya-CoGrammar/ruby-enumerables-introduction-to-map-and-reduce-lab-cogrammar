@@ -4,3 +4,12 @@ def map_to_negativize(s)
   return new_array
 end
 map_to_negativize([1,2,3])
+
+def map_to_no_change(s)
+
+  s.map {|n|}
+
+  return s
+
+end
+map_to_no_change([1,2,3])
