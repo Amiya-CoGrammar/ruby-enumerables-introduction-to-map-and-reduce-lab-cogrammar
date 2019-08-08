@@ -1,5 +1,5 @@
 def map(s)
-  do 
+  do
     smap {|n| n * -1}
 return s
 end
