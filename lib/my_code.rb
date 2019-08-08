@@ -30,3 +30,9 @@ def map_to_square(s)
   return new_array
 end
 map_to_square([1,2,3])
+
+
+def reduce_to_total(x)
+  total = x.reduce {|n| n = sum(x)}
+end
+reduce_to_total(1,2,3)
