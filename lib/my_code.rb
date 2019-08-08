@@ -1,10 +1,6 @@
 def map(s)
-  new = []
-  i = 0
-  while i < s.length
-    new.push(yield(s[i]))
-    i += 1
-  end
-  new
+  do 
+    smap {|n| n * -1}
+return s
 end
 map([1,2,3])
