@@ -22,3 +22,10 @@ def map_to_double(s)
 
 end
 map_to_no_change([1,2,3])
+
+def map_to_square(s)
+  new_array = []
+
+  new_array = s.map { |e| e*e  }
+
+end
