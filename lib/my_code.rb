@@ -50,3 +50,11 @@ def reduce_to_all_true(x)
 
 end
 reduce_to_all_true([1,2,3])
+
+def reduce_to_all_true(x)
+  if x = flase
+    return x
+  end
+
+end
+reduce_to_all_true([1,2,3])
