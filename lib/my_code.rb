@@ -39,6 +39,6 @@ reduce_to_total([1,2,3])
 
 
 def reduce_to_total(x, starting_point = 0)
-  puts x.reduce(starting_point) {|sum, num| sum + num }
+  x.reduce(starting_point) {|sum, num| sum + num }
 end
 reduce_to_total([1,2,3], 100)
