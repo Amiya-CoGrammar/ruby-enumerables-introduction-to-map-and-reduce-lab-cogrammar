@@ -48,5 +48,3 @@ def reduce_to_all_true(x)
     return x
 end
 reduce_to_all_true([1,2,3])
-
-
