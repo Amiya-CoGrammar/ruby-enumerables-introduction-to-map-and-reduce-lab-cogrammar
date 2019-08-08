@@ -27,5 +27,6 @@ def map_to_square(s)
   new_array = []
 
   new_array = s.map { |e| e*e  }
-
+  return new_array
 end
+map_to_square(1,2,3)
