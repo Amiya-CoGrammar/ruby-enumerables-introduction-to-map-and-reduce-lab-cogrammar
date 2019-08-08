@@ -42,3 +42,10 @@ def reduce_to_total(x, starting_point = 0)
   x.reduce(starting_point) {|sum, num| sum + num }
 end
 reduce_to_total([1,2,3], 100)
+
+def reduce_to_all_true(x)
+  if x = true
+    return x
+
+end
+reduce_to_all_true([1,2,3])
