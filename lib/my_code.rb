@@ -33,6 +33,8 @@ map_to_square([1,2,3])
 
 
 def reduce_to_total(x)
-  total = x.reduce {|n| n = sum(x)}
+  x.reduce(0) { |sum, num| sum + num}
 end
 reduce_to_total([1,2,3])
+
+
