@@ -1,10 +1,11 @@
 def map_to_negativize(source_array)
-  elements = [1,2,3]
 
-  elements.each do |num|
+  source_array.each do |num|
     (num * -1)
-  elements.push(num)
+
+    new_array = []
+  new_array.push(num)
   end
 
-  return element
 end
+map_to_negativize([1,2,3])
