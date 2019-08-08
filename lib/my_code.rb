@@ -1,11 +1,9 @@
-def map_to_negativize(source_array)
-
-  source_array.each do |num|
-    (num * -1)
-
-    new_array = []
-  new_array.push(num)
+def map(s)
+  new = []
+  i = 0
+  while i < s.length
+    new.push(yield(s[i]))
+    i += 1
   end
-
+  new
 end
-map_to_negativize([1,2,3])
