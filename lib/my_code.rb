@@ -44,14 +44,13 @@ end
 reduce_to_total([1,2,3], 100)
 
 def reduce_to_all_true(x)
-  x.reduce(true)
+  x.reduce { |var_true| if var_true == true; p true; else p false end}
     return x
 end
 reduce_to_all_true([1,2,3])
 
 def reduce_to_all_true(x)
-  if x.reduce(false)
+  x.reduce { |var_true| if var_true == true; p true; else p false end}
     return x
-  end
 end
 reduce_to_all_true([1,2,3])
