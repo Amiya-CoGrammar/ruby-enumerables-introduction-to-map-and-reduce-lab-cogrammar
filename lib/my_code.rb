@@ -46,6 +46,7 @@ reduce_to_total([1,2,3], 100)
 def reduce_to_all_true(x)
   if x = true
     return x
+  end
 
 end
 reduce_to_all_true([1,2,3])
