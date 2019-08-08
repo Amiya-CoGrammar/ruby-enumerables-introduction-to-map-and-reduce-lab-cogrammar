@@ -43,4 +43,3 @@ def reduce_to_total(x, starting_point = 0)
   puts x
 end
 reduce_to_total([1,2,3], 100)
-
