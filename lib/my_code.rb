@@ -31,8 +31,17 @@ def map_to_square(s)
 end
 map_to_square([1,2,3])
 
-
+########## reduce methods ##########
 def reduce_to_total(x)
   x.reduce(0) { |sum, num| sum + num}
 end
 reduce_to_total([1,2,3])
+
+def reduce_to_total(x, starting_point)
+  x.reduce(starting_point) {|sum, num| sum + num }
+end
+reduce_to_total([1,2,3], 100)
+
+
+
+
