@@ -7,3 +7,4 @@ def map(s)
   end
   new
 end
+map([1,2,3])
