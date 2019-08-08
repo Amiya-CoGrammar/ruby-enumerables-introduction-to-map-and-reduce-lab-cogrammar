@@ -51,7 +51,7 @@ end
 reduce_to_all_true([1,2,3])
 
 def reduce_to_all_true(x)
-  if x = false
+  if x.each = false
     return x
   end
 end
