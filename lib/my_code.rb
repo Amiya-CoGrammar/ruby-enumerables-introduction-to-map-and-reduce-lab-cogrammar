@@ -30,6 +30,3 @@ def map_to_square(s)
   return new_array
 end
 map_to_square([1,2,3])
-
-
-
