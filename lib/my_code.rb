@@ -26,7 +26,7 @@ map_to_no_change([1,2,3])
 def map_to_square(s)
   new_array = []
 
-  new_array = s.map { |n| n * e}
+  new_array = s.map { |n| n * n}
   return new_array
 end
 map_to_square([1,2,3])
